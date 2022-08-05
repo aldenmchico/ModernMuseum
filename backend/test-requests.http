@@ -1,0 +1,20 @@
+// Met Museum ******************************************
+
+// GET Request for all department categories
+###
+GET https://collectionapi.metmuseum.org/public/collection/v1/departments
+
+// GET Request for an object in the gallery
+###
+GET https://collectionapi.metmuseum.org/public/collection/v1/objects/704667
+
+// GET Request for all object IDs satisfying the query
+###
+GET https://collectionapi.metmuseum.org/public/collection/v1/search?q=sunflowers
+
+// Modern Museum ******************************************
+
+// GET Request with a sample query
+###
+GET http://localhost:3000/search/france/start/12/num_imgs/4
+
